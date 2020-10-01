@@ -59,14 +59,18 @@
 		?>
 		/* change here */
 		
-		
-		
-		
-		
-		
-		
-		
-		
+		<header id="branding" >
+			<?php
+				/**
+				 * travelify_header hook
+				 *
+				 * HOOKED_FUNCTION_NAME PRIORITY
+				 *
+				 * travelify_headerdetails 10
+				 */
+				do_action( 'travelify_header' );
+			?>
+		</header>
 		
 		
 		<?php
